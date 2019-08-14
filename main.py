@@ -9,12 +9,10 @@ from functools import wraps
 from uuid import uuid4
 import pickle
 from threading import Event
-from time import time
 from datetime import timedelta
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, InlineQueryResultArticle, \
-    InputTextMessageContent
+from telegram import InlineQueryResultArticle, InputTextMessageContent
 from telegram.ext.dispatcher import run_async
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode    
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode
 from telegram.ext import DispatcherHandlerStop
 from telegram.ext import Updater, MessageHandler, Filters, CommandHandler, InlineQueryHandler, CallbackQueryHandler
 from tinydb import TinyDB, Query
